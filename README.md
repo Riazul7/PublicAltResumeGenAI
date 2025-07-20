@@ -86,9 +86,8 @@ Contributions, ideas, and pull requests are welcome! Feel free to fork or raise 
 💬 License
 MIT License. Use freely for personal and professional purposes.
 
-🔗 Demo (If Public)
-👉 Launch on Streamlit Cloud
-Or deploy it yourself!
+🔗 Demo 
+https://publicaltresumegenai.streamlit.app/
 
 👨‍💻 Built by
-Riazul Azim — AI Engineer | Resume Matchmaker
+Riazul Azim — Associate Programmer Analyst | MG Tathya Solution Private Limited | Resume Matchmaker
