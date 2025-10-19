@@ -112,7 +112,7 @@ Suggest improvements in:
 
 Return suggestions as bullet points.
 """
-    agent = Agent(model=Groq(id="llama3-70b-8192", api_key=user_groq_api_key))
+    agent = Agent(model=Groq(id="llama-3.1-8b-instant", api_key=user_groq_api_key))
     return agent.run(prompt).content
 
 def save_resume_pdf(resume_text, filename):
