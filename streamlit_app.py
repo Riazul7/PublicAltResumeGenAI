@@ -91,7 +91,7 @@ Location: {location}
 Generate this resume tailored for the following job description:
 {job_description}
 """
-    agent = Agent(model=Groq(id="llama3-70b-8192", api_key=user_groq_api_key))
+    agent = Agent(model=Groq(id="llama-3.1-8b-instant", api_key=user_groq_api_key))
     return agent.run(prompt).content
 
 def suggest_resume_improvements(resume_text, job_description):
